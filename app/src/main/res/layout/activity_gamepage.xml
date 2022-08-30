@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".gamepage">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:padding="20dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="60sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textHello1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:fontFamily="serif"
+        android:text="@string/Hello_There"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/EnterNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textHello1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:fontFamily="serif"
+        android:text="Enter A Number"
+        android:textColor="@color/teal_200"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/NumberHere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EnterNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:fontFamily="serif"
+        android:hint="Enter_The_Number Here"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/numberid"
+        android:layout_width="366dp"
+        android:layout_height="241dp"
+        android:layout_below="@+id/NumberHere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="serif"
+        android:inputType="number"
+        android:text="Number"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberid"
+        android:layout_marginTop="101dp"
+        android:onClick="onBtnClick"
+        android:text="Okay" />
+
+
+</RelativeLayout>

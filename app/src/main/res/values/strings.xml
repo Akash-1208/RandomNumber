@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RandomNumber</string>
+    <string name="Hello_There">Hello There</string>
+    <string name="Enter">Enter</string>
+    <string name="Enter_Your_Name">Enter Your Name</string>
+    <string name="Enter_The_Number">Enter The Number</string>
+    <string name="Win_or_Loss">Win?Loss</string>
+
+</resources>
